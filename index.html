@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Cafetería SASS es una pagina web elaborada por el estudiante y futuro ingeniero Fernando de la Cruz Ramos, mediante un curso de desarrollo web con el cual espera retomar todo el conocimiento perdido gracias a la falta de practica durante los anteriores meses. Cafetería SASS se plantea hacer una pagina web para una cafeteria con el que se pueda aprender la teconlogia sass y poder venderla en un futuro proximo. El estudiante Fernando de la Cruz Ramos implemento el boton de whatsapp, modifico el icon y agrego un svg en el contacto, con el espera poder venderlo proximamente.">
+    <title>Cafetería SASS</title>
+    <link rel="shortcut icon" href="build/img/mug-hot-solid.svg" type="image/x-icon">
+    <script src="https://kit.fontawesome.com/fa9ffb4394.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bona+Nova&family=Raleway:wght@700;900&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="build/css/app.css">
+</head>
+<body>
+    <header class="header header-inicio">
+        <div class="contenido-header contenedor">
+            <div class="barra">
+                <div class="logo">
+                    <img src="build/img/logo.svg" alt="logo cafeteria">
+                </div>
+
+                <nav class="nav-principal">
+                    <a class="activo" href="index.html">Inicio</a>
+                    <a href="nosotros.html">Nosotros</a>
+                    <a href="proceso.html">Proceso</a>
+                    <a href="menu.html">Menú</a>
+                    <a href="galeria.html">Galería</a>
+                    <a href="contacto.html">Contacto</a>
+                </nav>
+            </div>
+
+            <div class="texto-header">
+                <h1>Disfruta una deliciosa taza de café</h1>
+            </div>
+        </div>
+    </header>
+
+    <main class="contenedor contenido-principal text-center">
+        <section class="conoce">
+            <h2><span>Conoce más</span> sobre nosotros</h2>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fugiat possimus quod minus, rem autem incidunt laboriosam eum consequatur vero. Repellendus facere, ullam architecto corporis earum optio inventore consequatur eligendi! Fugiat? Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis, provident fugit! Cum dolor doloremque atque, magni ad deleniti necessitatibus molestiae eaque natus nulla, illo fugit autem, ducimus unde omnis! Obcaecati iure ipsam doloribus? Recusandae voluptates tempore quaerat iure nesciunt sequi exercitationem qui earum quibusdam repellendus. Voluptatibus quia deserunt aperiam qui?</p>
+        </section>
+
+        <section class="iconos">
+            <ul class="listado-iconos">
+                <li>
+                    <img src="build/img/icono_cafe.svg" alt="icono cafe">
+                    <p>Café</p>
+                </li>
+                <li>
+                    <img src="build/img/icono_postre.svg" alt="icono cafe">
+                    <p>Postres</p>
+                </li>
+                <li>
+                    <img src="build/img/icono_te.svg" alt="icono cafe">
+                    <p>Té</p>
+                </li>
+            </ul>
+        </section>
+
+
+        <section class="experiencia">
+            <h2><span>Vive la</span>Experiencia</h2>
+            <div class="galeria">
+                <div class="imagen">
+                    <picture>
+                        <source srcset="build/img/galeria/galeria_01.avif" type="image/avif">
+                        <source srcset="build/img/galeria/galeria_01.webp" type="image/webp">
+                        <img loading="lazy" decoding="async" src="build/img/galeria/galeria_01.jpg" alt="galeria" width="500" height="300">
+                    </picture>
+                    <!-- <img src="build/img/galeria/galeria_01.jpg" alt="galeria"> -->
+                </div>
+                <div class="imagen">
+                    <picture>
+                        <source srcset="build/img/galeria/galeria_02.avif" type="image/avif">
+                        <source srcset="build/img/galeria/galeria_02.webp" type="image/webp">
+                        <img loading="lazy" decoding="async" src="build/img/galeria/galeria_02.jpg" alt="galeria" width="500" height="300">
+                    </picture>
+                    <!-- <img src="build/img/galeria/galeria_02.jpg" alt="galeria"> -->
+                </div>
+                <div class="imagen">
+                    <picture>
+                        <source srcset="build/img/galeria/galeria_03.avif" type="image/avif">
+                        <source srcset="build/img/galeria/galeria_03.webp" type="image/webp">
+                        <img loading="lazy" decoding="async" src="build/img/galeria/galeria_03.jpg" alt="galeria" width="500" height="300">
+                    </picture>
+                    <!-- <img src="build/img/galeria/galeria_03.jpg" alt="galeria"> -->
+                </div>
+                <div class="imagen">
+                    <picture>
+                        <source srcset="build/img/galeria/galeria_04.avif" type="image/avif">
+                        <source srcset="build/img/galeria/galeria_04.webp" type="image/webp">
+                        <img loading="lazy" decoding="async" src="build/img/galeria/galeria_04.jpg" alt="galeria" width="500" height="300">
+                    </picture>
+                    <!-- <img src="build/img/galeria/galeria_04.jpg" alt="galeria"> -->
+                </div>
+                <div class="imagen">
+                    <picture>
+                        <source srcset="build/img/galeria/galeria_05.avif" type="image/avif">
+                        <source srcset="build/img/galeria/galeria_05.webp" type="image/webp">
+                        <img loading="lazy" decoding="async" src="build/img/galeria/galeria_05.jpg" alt="galeria" width="500" height="300">
+                    </picture>
+                    <!-- <img src="build/img/galeria/galeria_05.jpg" alt="galeria"> -->
+                </div>
+                <div class="imagen">
+                    <picture>
+                        <source srcset="build/img/galeria/galeria_06.avif" type="image/avif">
+                        <source srcset="build/img/galeria/galeria_06.webp" type="image/webp">
+                        <img loading="lazy" decoding="async" src="build/img/galeria/galeria_06.jpg" alt="galeria" width="500" height="300">
+                    </picture>
+                    <!-- <img src="build/img/galeria/galeria_06.jpg" alt="galeria"> -->
+                </div>
+                <div class="imagen">
+                    <picture>
+                        <source srcset="build/img/galeria/galeria_07.avif" type="image/avif">
+                        <source srcset="build/img/galeria/galeria_07.webp" type="image/webp">
+                        <img loading="lazy" decoding="async" src="build/img/galeria/galeria_07.jpg" alt="galeria" width="500" height="300">
+                    </picture>
+                    <!-- <img src="build/img/galeria/galeria_07.jpg" alt="galeria"> -->
+                </div>
+                <div class="imagen">
+                    <picture>
+                        <source srcset="build/img/galeria/galeria_08.avif" type="image/avif">
+                        <source srcset="build/img/galeria/galeria_08.webp" type="image/webp">
+                        <img loading="lazy" decoding="async" src="build/img/galeria/galeria_08.jpg" alt="galeria" width="500" height="300">
+                    </picture>
+                    <!-- <img src="build/img/galeria/galeria_08.jpg" alt="galeria"> -->
+                </div>
+                <div class="imagen">
+                    <picture>
+                        <source srcset="build/img/galeria/galeria_09.avif" type="image/avif">
+                        <source srcset="build/img/galeria/galeria_09.webp" type="image/webp">
+                        <img loading="lazy" decoding="async" src="build/img/galeria/galeria_09.jpg" alt="galeria" width="500" height="300">
+                    </picture>
+                    <!-- <img src="build/img/galeria/galeria_09.jpg" alt="galeria"> -->
+                </div>
+                <div class="imagen">
+                    <picture>
+                        <source srcset="build/img/galeria/galeria_10.avif" type="image/avif">
+                        <source srcset="build/img/galeria/galeria_10.webp" type="image/webp">
+                        <img loading="lazy" decoding="async" src="build/img/galeria/galeria_10.jpg" alt="galeria" width="500" height="300">
+                    </picture>
+                    <!-- <img src="build/img/galeria/galeria_10.jpg" alt="galeria"> -->
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <section class="nuestro-menu">
+        <h2 class="heading-blanco"><span>Nuesto delicioso</span>Menú</h2>
+        <div class="contenedor grid-menu">
+            <section class="menu cafe">
+                <h3>Café</h3>
+                <ul>
+                    <li>
+                        <p>Café Latte <span>Café Espresso con leche caliente evaporada</span> </p>
+                        <p class="precio">$25</p>
+                    </li>
+                    <li>
+                        <p>Café Mocha <span>Espresso con crema batida</span> </p>
+                        <p class="precio">$30</p>
+                    </li>
+                    <li>
+                        <p>Café Americano <span>Café Negro</span> </p>
+                        <p class="precio">$30</p>
+                    </li>
+                    <li>
+                        <p>Capuccino<span>Espresso con una capa suave de espuma</span> </p>
+                        <p class="precio">$25</p>
+                    </li>
+                    <li>
+                        <p>Café Mocha Frio<span>Espresso, dulce con mocha y leche.</span> </p>
+                        <p class="precio">$29</p>
+                    </li>
+                    <li>
+                        <p>Mocha Frio Quemado<span>Espresso, hielo, con azucar quemada y mantequilla.</span> </p>
+                        <p class="precio">$35</p>
+                    </li>
+                    <li>
+                        <p>Latte con Caramelo<span>Espresso, leche y caramelo.</span> </p>
+                        <p class="precio">$39</p>
+                    </li>
+                </ul>
+            </section>
+            <section class="menu comida">
+                <h3>Comida</h3>
+                <ul>
+                    <li>
+                        <p>Baguette de Pollo <span>Delicioso Baguette con pollo a la plancha</span> </p>
+                        <p class="precio">$45</p>
+                    </li>
+                    <li>
+                        <p>Baguette Pollo y Queso <span>Baguette combinado con Pollo y Queso Manchego</span> </p>
+                        <p class="precio">$50</p>
+                    </li>
+                    <li>
+                        <p>Baguette con Tocino<span>Baguette con especias y verduras, además de tocino</span> </p>
+                        <p class="precio">$50</p>
+                    </li>
+                    <li>
+                        <p>Baguette de Jamón<span>Delicioso Baguette con Jamón y Especias</span> </p>
+                        <p class="precio">$65</p>
+                    </li>
+                    <li>
+                        <p>Baguette con Jamón, Queso y Tocino<span>El especial de la casa</span> </p>
+                        <p class="precio">$69</p>
+                    </li>
+                    <li>
+                        <p>Sandwich de Pollo<span>Delicioso sandwich con Pollo y especies</span> </p>
+                        <p class="precio">$65</p>
+                    </li>
+                    <li>
+                        <p>Sandwich de Jamón y queso<span>Queso Amarillo con Jamón y Queso</span> </p>
+                        <p class="precio">$59</p>
+                    </li>
+                </ul>
+            </section>
+        </div>
+    </section>
+
+    <section class="nuestros-testimoniales contenedor bg-white margin-negativo-10">
+        <h2><span>Lo que dicen nuestros </span>Clientes</h2>
+
+        <div class="testimonial_contenedor">
+            <div class="testimonial">
+                <div>
+                    <p>Es un lugar tranquilo para pasar el rato, los alimentos son ricos, la atención es buena & los precios son accesibles.
+                        La mejor cafetería de la zona. 🖐️</p>
+                    <div class="testimonial_puntuacion">
+                        <div>
+                            <i class="color fa-solid fa-star"></i>
+                            <i class="color fa-solid fa-star"></i>
+                            <i class="color fa-solid fa-star"></i>
+                            <i class="color fa-solid fa-star"></i>
+                        </div>
+                        <p>Hace 7 meses</p>
+                    </div>
+                </div>
+    
+                <p class="autor">-- Juan De la Torre</p>
+            </div>
+            <div class="testimonial">
+                <div>
+                    <p>Un lugar muy tranquilo  .... todo esta preparado en el momento y delicioso. Precios accesibles.
+                        Totalmente recomendado</p>
+                    <div class="testimonial_puntuacion">
+                        <div>
+                            <i class="color fa-solid fa-star"></i>
+                            <i class="color fa-solid fa-star"></i>
+                            <i class="color fa-solid fa-star"></i>
+                            <i class="color fa-solid fa-star"></i>
+                        </div>
+                        <p>Hace 3 meses</p>
+                    </div>
+                </div>
+    
+                <p class="autor">-- Eduardo Morales Perez</p>
+            </div>
+            <div class="testimonial">
+                <div>
+                    <p>Excelente servicio, puedes quedarte entretenido con juegos de mesa mientras esperas tu orden, puedes hacer pedido desde Facebook para que lo tengan listo a tu llegada o para llevar. De precios, muy bien. Si te queda cerca, date una vuelta</p>
+                    <div class="testimonial_puntuacion">
+                        <div>
+                            <i class="color fa-solid fa-star"></i>
+                            <i class="color fa-solid fa-star"></i>
+                            <i class="color fa-solid fa-star"></i>
+                            <i class="color fa-solid fa-star"></i>
+                        </div>
+                        <p>Hace 8 meses</p>
+                    </div>
+                </div>
+    
+                <p class="autor">-- Uriel Lozano Mora</p>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="contenedor contenido-footer bg-white">
+            <div class="footer-box ubicacion">
+                <h3>Ubicación</h3>
+                <p>Nicolas Copérnico 5590</p>
+                <p>Guadalajara, Jalisco</p>
+            </div>
+
+            <div class="footer-box reservacion">
+                <h3>Reservación</h3>
+                <p>Tel. 3850-9102</p>
+                <a href="tel:+525583936231">Llamar</a>
+            </div>
+
+            <div class="footer-box horario">
+                <h3>Horario</h3>
+                <p>Lun - Jue: 11:00 - 22:00</p>
+                <p>Vie - Sab: 9:00 - 24:00</p>
+                <p>Domingo: Cerrado</p>
+            </div>
+        </div>
+
+        <p class="copyright">&#64;Todos lo derechos reservador. La Cafetería</p>
+    </footer>
+
+    <a target="_blank" href="https://api.whatsapp.com/send?phone=525583936231">
+        <div class="mensajeWhats">
+            <i class="icono fa-brands fa-whatsapp"></i>
+        </div>
+    </a>
+</body>
+</html>
